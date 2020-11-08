@@ -1,5 +1,6 @@
 # 100DaysOfCode
-Trying to implement data structures in this project
+Trying to implement algorithms in this project
+refering [GitHub](https://docs.google.com/spreadsheets/d/1LWxA3xiZxUGToD7Nj3fVqSyOs9f5bx_zqsMjaQLcen8/edit?usp=sharing)
 
 ### Day 1
 * C++ program to reverse the array given by user
