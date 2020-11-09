@@ -4,6 +4,7 @@ refering [Questions By Love Babbar](https://docs.google.com/spreadsheets/d/1LWxA
 
 ##### [Love Babbar](https://www.youtube.com/channel/UCQHLxxBFrbfdrk1jF0moTpw)
 
+# **ARRAYS**
 ### Day 1
 * [C++ program to reverse the array given by user](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-1/reverseArray.cpp) from [Reverse the Array](https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/)
 
