@@ -13,3 +13,4 @@ refering [Questions By Love Babbar](https://docs.google.com/spreadsheets/d/1LWxA
 
 ### Day 3
 * [C++ program to find minimum and maximum in the array](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-3/minMax.cpp) from [Find the maximum and minimum element in an array](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/)
+* [C++ program to find kth smallest element of an array](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-3/kthSmallest.cpp) from [Kth smallest](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1)
