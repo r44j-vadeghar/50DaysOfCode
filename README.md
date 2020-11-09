@@ -9,3 +9,6 @@ refering [Questions By Love Babbar](https://docs.google.com/spreadsheets/d/1LWxA
 
 ### Day 2
 * [C++ program to sort the array elements given by user in ascending order using MERGE-SORT](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-2/mergesort.cpp) from [Merge Sort](https://www.geeksforgeeks.org/merge-sort/)
+
+### Day 3
+* [C++ program to find minimum and maximum in the array](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-3/minMax.cpp) from [Find the maximum and minimum element in an array](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/)
