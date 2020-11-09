@@ -1,5 +1,5 @@
 # 100DaysOfCode
-Trying to implement algorithms in this project
+Trying to implement data structures and algorithms in this project
 refering [Questions By Love Babbar](https://docs.google.com/spreadsheets/d/1LWxA3xiZxUGToD7Nj3fVqSyOs9f5bx_zqsMjaQLcen8/edit?usp=sharing)
 
 ##### [Love Babbar](https://www.youtube.com/channel/UCQHLxxBFrbfdrk1jF0moTpw)
