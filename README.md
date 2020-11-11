@@ -1,9 +1,6 @@
 # 100DaysOfCode
-> Trying to implement data structures and algorithms in this project
-
-<br/>
-
-> Everthing here in this project is C++
+> Trying to implement *data structures* and *algorithms* in this project. Everthing here in this project is **C++**
+---
 
 # ***ARRAYS***
 ### Day 1
