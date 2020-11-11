@@ -1,6 +1,6 @@
 # 100DaysOfCode
-Trying to implement data structures and algorithms in this project
-refering [Questions By Love Babbar](https://docs.google.com/spreadsheets/d/1LWxA3xiZxUGToD7Nj3fVqSyOs9f5bx_zqsMjaQLcen8/edit?usp=sharing) and [GFG](https://www.geeksforgeeks.org/)
+> Trying to implement data structures and algorithms in this project
+> refering [Questions By Love Babbar](https://docs.google.com/spreadsheets/d/1LWxA3xiZxUGToD7Nj3fVqSyOs9f5bx_zqsMjaQLcen8/edit?usp=sharing) and [GFG](https://www.geeksforgeeks.org/)
 
 ##### [Love Babbar](https://www.youtube.com/channel/UCQHLxxBFrbfdrk1jF0moTpw)
 
@@ -10,23 +10,58 @@ refering [Questions By Love Babbar](https://docs.google.com/spreadsheets/d/1LWxA
 C++ program to reverse an array
 
 Example 1:
-Input  : array[] = {1, 2, 3}
-Output : array[] = {3, 2, 1}
+Input   : array[] = {1, 2, 3}
+Output  : array[] = {3, 2, 1}
 
 Example 2:
-Input :  array[] = {4, 5, 1, 2}
-Output : array[] = {2, 1, 5, 4}
+Input   :  array[] = {4, 5, 1, 2}
+Output  : array[] = {2, 1, 5, 4}
 ```
 
 ### Day 2
-* [C++ program to sort the array elements given by user in ascending order using MERGE-SORT](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-2/mergesort.cpp) from [Merge Sort](https://www.geeksforgeeks.org/merge-sort/)
+```
+C++ program to sort array using MERGE SORT
 
+Example:
+Input   : array[] = {4, 5, 1, 7}
+Output  : array[] = {1, 4, 5, 7}
+```
 ### Day 3
-* [C++ program to find minimum and maximum in the array](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-3/minMax.cpp) from [Find the maximum and minimum element in an array](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/)
-* [C++ program to find kth smallest element of an array](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-3/kthSmallest.cpp) from [Kth smallest](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1)
+```
+C++ program to find the minimum and maximum elements in an array.
 
+Example:
+Input   : array[] = {4, 5, 10, 25, 2, 3}
+Ouput   : min = 2, max = 25
+```
+```
+C++ program to find the kth smallest element in an array.
+
+Example:
+Input   : array[] = {7, 10, 4, 3, 20, 15}, k = 2
+Output  : 7
+Explanation : k is 2, so 2nd smallest element is 7
+```
 ### Day 4
-* [C++ program to sort 0's, 1's and 2's](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-4/sorting.cpp) from [Given an array which consists of only 0, 1 and 2. Sort the array without using any sorting algo](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s/0)
+```
+C++ program to sort the array of 0s, 1s, 2s in ascending order without using any sorting algorithm
 
+Given an array containing 0s, 1s, and 2s; you need to sort the array in ascending order.
+
+Example:
+Input   : array[] = {2, 1, 1, 0, 0, 2, 0, 1}
+Output  : array[] = {0, 0, 0, 1, 1, 1, 2, 2}
+```
 ### Day 5
-* [C++ program to rearrange array by keeping negatives aside and positives on the other side](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-5/rearrange.cpp) from [Move all the negative elements to one side of the array](https://www.geeksforgeeks.org/move-negative-numbers-beginning-positive-end-constant-extra-space/)
+```
+C++ program to move all the negative numbers to the beginning of the array.
+
+An array contains both positive and negative numbers in random order.
+Rearrange the array elements so that all negative numbers appear before all positive numbers.
+
+Example:
+Input   : array[] = {1, -5, -6, 10, 25, 33, -20}
+Output  : array[] = {-20, -5, -6, 10, 25, 33, 1}
+
+Note : Order of elements is not important here. 
+```
