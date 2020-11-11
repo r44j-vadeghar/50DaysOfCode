@@ -1,8 +1,9 @@
 # 100DaysOfCode
 > Trying to implement data structures and algorithms in this project
-> refering [Questions By Love Babbar](https://docs.google.com/spreadsheets/d/1LWxA3xiZxUGToD7Nj3fVqSyOs9f5bx_zqsMjaQLcen8/edit?usp=sharing) and [GFG](https://www.geeksforgeeks.org/)
 
-##### [Love Babbar](https://www.youtube.com/channel/UCQHLxxBFrbfdrk1jF0moTpw)
+<br/>
+
+> Everthing here in this project is C++
 
 # ***ARRAYS***
 ### Day 1
