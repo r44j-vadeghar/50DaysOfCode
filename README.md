@@ -6,7 +6,17 @@ refering [Questions By Love Babbar](https://docs.google.com/spreadsheets/d/1LWxA
 
 # ***ARRAYS***
 ### Day 1
-* [C++ program to reverse the array given by user](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-1/reverseArray.cpp) from [Reverse the Array](https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/)
+```
+C++ program to reverse an array
+
+Example 1:
+Input  : array[] = {1, 2, 3}
+Output : array[] = {3, 2, 1}
+
+Example 2:
+Input :  array[] = {4, 5, 1, 2}
+Output : array[] = {2, 1, 5, 4}
+```
 
 ### Day 2
 * [C++ program to sort the array elements given by user in ascending order using MERGE-SORT](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-2/mergesort.cpp) from [Merge Sort](https://www.geeksforgeeks.org/merge-sort/)
