@@ -17,3 +17,6 @@ refering [Questions By Love Babbar](https://docs.google.com/spreadsheets/d/1LWxA
 
 ### Day 4
 * [C++ program to sort 0's, 1's and 2's](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-4/sorting.cpp) from [Given an array which consists of only 0, 1 and 2. Sort the array without using any sorting algo](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s/0)
+
+### Day 5
+* [C++ program to rearrange array by keeping negatives aside and positives on the other side](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-5/rearrange.cpp) from [Move all the negative elements to one side of the array](https://www.geeksforgeeks.org/move-negative-numbers-beginning-positive-end-constant-extra-space/)
