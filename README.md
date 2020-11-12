@@ -36,7 +36,7 @@ Output  : 7
 Explanation : k is 2, so 2nd smallest element is 7
 ```
 ### Day 4
-> [C++ program to sort the array of 0s, 1s, 2s in ascending order without using any sorting algorithm.](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-4/sorting.cpp)
+> [C++ program to sort the array of 0s, 1s, 2s in ascending order without using any sorting algorithm.](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-4/sorting.cpp) <br />
 > Given an array containing 0s, 1s, and 2s; you need to sort the array in ascending order.
 ```
 Example:
@@ -44,7 +44,7 @@ Input   : array[] = {2, 1, 1, 0, 0, 2, 0, 1}
 Output  : array[] = {0, 0, 0, 1, 1, 1, 2, 2}
 ```
 ### Day 5
-> [C++ program to move all the negative numbers to the beginning of the array.](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-5/rearrange.cpp)
+> [C++ program to move all the negative numbers to the beginning of the array.](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-5/rearrange.cpp) <br />
 > An array contains both positive and negative numbers in random order.Rearrange the array elements so that all negative numbers appear before all positive numbers.
 ```
 Example:
