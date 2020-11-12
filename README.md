@@ -53,3 +53,10 @@ Output  : array[] = {-20, -5, -6, 10, 25, 33, 1}
 
 Note : Order of elements is not important here. 
 ```
+### Day 6
+> [C++ program to find union count of two arrays](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-6/union.cpp)
+```
+Example:
+Input   : array[] = {1, 2, 3, 4, 5}, array[] = {1, 2, 7}
+Output  : 6
+```
