@@ -3,7 +3,7 @@
 
 # ***ARRAYS***
 ### Day 1
-[C++ program to reverse an array](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-1/reverseArray.cpp)
+* [C++ program to reverse an array](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-1/reverseArray.cpp)
 ```
 Example 1:
 Input   : array[] = {1, 2, 3}
@@ -15,9 +15,8 @@ Output  : array[] = {2, 1, 5, 4}
 ```
 
 ### Day 2
+* [C++ program to sort array using MERGE SORT](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-2/mergesort.cpp)
 ```
-C++ program to sort array using MERGE SORT
-
 Example:
 Input   : array[] = {4, 5, 1, 7}
 Output  : array[] = {1, 4, 5, 7}
