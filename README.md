@@ -3,9 +3,8 @@
 
 # ***ARRAYS***
 ### Day 1
-```
 [C++ program to reverse an array](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-1/reverseArray.cpp)
-
+```
 Example 1:
 Input   : array[] = {1, 2, 3}
 Output  : array[] = {3, 2, 1}
