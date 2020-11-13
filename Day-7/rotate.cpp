@@ -1,4 +1,4 @@
-// C++ program to rotate an array by one
+// C++ program to rotate an array by one element each
 #include <iostream>
 using namespace std;
 

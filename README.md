@@ -60,3 +60,11 @@ Example:
 Input   : array[] = {1, 2, 3, 4, 5}, array[] = {1, 2, 7}
 Output  : 6
 ```
+
+### Day 7
+> [C++ program to rotate an array by one element each](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-7/rotate.cpp)
+```
+Example:
+Input   : array[] = {1, 2, 3, 4, 5}
+Output  : array[] = {5, 1, 2, 3, 4}
+```
