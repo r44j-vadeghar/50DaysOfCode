@@ -1,4 +1,4 @@
-// C++ program to rotate an array by one
+// C++ program to minimize the maximum difference between the heights
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
