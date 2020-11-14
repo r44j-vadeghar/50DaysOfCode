@@ -72,7 +72,7 @@ Output  : array[] = {5, 1, 2, 3, 4}
 ### Day 8
 > [C++ program to minimize the maximum difference between the heights](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-8/diff.cpp)
 ```
-Example:
+Example-1:
 Input   : array[] = {1, 5, 8, 10}, K = 2
 Output  : 5
 
