@@ -80,3 +80,15 @@ Example-2:
 Input   : array[] = {3, 9, 12, 16, 20}, K = 3
 Output  : 11
 ```
+
+### Day 9
+> [C++ program to find minimum number of jumps reqired to reach end of array](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-9/NoOfJumps.cpp)
+```
+Example-1:
+Input   : array[] = {1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9}
+Output  : 3
+
+Example-2:
+Input   : array[] = {1, 4, 3, 2, 6, 7}
+Output  : 2
+```
