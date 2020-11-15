@@ -14,8 +14,9 @@ int main(void) {
 
     for (int i = 0; i < testcases; i++)
     {
-        //Specifying size of two arrays
+        
         int size, k;
+        //Specifying size of array
         cout << "\nEnter size of Array: ";
         cin >> size;
 
