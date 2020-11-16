@@ -99,7 +99,7 @@ Input   : array[] = {1, 4, 3, 2, 6, 7}
 Output  : 2
 ```
 
-### Day 9
+### Day 10
 > [C++ program to find duplicates in an array](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-10/duplicate.cpp)<br />
 
 > Given an array of size n + 1, which contains n distinct elements and 1 element is repeated. The task is to find out the repeated element.
