@@ -70,15 +70,21 @@ Output  : array[] = {5, 1, 2, 3, 4}
 ```
 
 ### Day 8
-> [C++ program to minimize the maximum difference between the heights](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-8/diff.cpp)
-```
-Example-1:
-Input   : array[] = {1, 5, 8, 10}, K = 2
-Output  : 5
+> [C++ program to minimize the maximum difference between the heights](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-8/diff.cpp)<br />
 
-Example-2:
-Input   : array[] = {3, 9, 12, 16, 20}, K = 3
-Output  : 11
+> Given an array arr[] denoting heights of N towers and a positive integer K. You have to modify the height of each tower either by increasing or decreasing them by K only once. After modifying, height should be a non-negative integer. Find out what could be the possible minimum difference of the height of shortest and longest towers after.
+```
+Example 1:
+Input: K = 2, N = 4, Arr[] = {1, 5, 8, 10}
+Output: 5
+Explanation: The array can be modified as {3, 3, 6, 8}.
+The difference between the largest and the smallest is 8-3 = 5.
+
+Example 2:
+Input: K = 3, N = 5, Arr[] = {3, 9, 12, 16, 20}
+Output: 11
+Explanation: The array can be modified as {6, 12, 9, 13, 17}.
+The difference between the largest and the smallest is 17-6 = 11.
 ```
 
 ### Day 9
@@ -91,4 +97,22 @@ Output  : 3
 Example-2:
 Input   : array[] = {1, 4, 3, 2, 6, 7}
 Output  : 2
+```
+
+### Day 9
+> [C++ program to find duplicates in an array](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-10/duplicate.cpp)<br />
+
+> Given an array of size n + 1, which contains n distinct elements and 1 element is repeated. The task is to find out the repeated element.
+```
+Example-1:
+Input   : array[] = {1, 3, 4, 2, 2}
+Output  : 2
+
+Example-2:
+Input   : array[] = {3, 1, 3, 4, 2}
+Output  : 3
+
+Example-3:
+Input   : array[] = {1, 1}
+Output  : 1
 ```
