@@ -120,7 +120,7 @@ Output  : 1
 ### Day 11
 > [C++ program to merge two sorted arrays without using extra space](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-11/merge.cpp)<br />
 
-> Given two sorted arrays array1[], array2[] of size1, size2. Each array is sorted in non-decreasing order. Merge the two arrays into one sorted array in non-decreasing order without using any extra space.
+> Given two sorted arrays arr1[], arr2[] of size1, size2. Each array is sorted in non-decreasing order. Merge the two arrays into one sorted array in non-decreasing order without using any extra space.
 
 ```
 Example 1:
