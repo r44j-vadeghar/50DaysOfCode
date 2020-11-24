@@ -312,6 +312,6 @@ Example 3:
         We need to pick 7 packets. 
         We pick 40, 41, 42, 44, 48, 43 and 50 to minimize difference between maximum and minimum.
 ```
-> Approach : <br />
+> **Approach** : <br />
 
 >    We first sort the array arr[0..n-1], then find the subarray of size m with the minimum difference between the last and first elements.
