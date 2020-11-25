@@ -315,6 +315,8 @@ Example 3:
 > **Approach :** <br />
 
 >    We first sort the array arr[0..n-1], then find the subarray of size m with the minimum difference between the last and first elements.
+<br />
+<br />
 
 ## Day 19
 > [C++ program to find smallest sub array count with greatest sum](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-19/smallestSubArrayWithGreatestSum.cpp)<br />
