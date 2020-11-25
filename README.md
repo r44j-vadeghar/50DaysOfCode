@@ -13,6 +13,7 @@ Example 2:
 Input   :  array[] = {4, 5, 1, 2}
 Output  : array[] = {2, 1, 5, 4}
 ```
+<br />
 
 ## Day 2
 > [C++ program to sort array using MERGE SORT](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-2/mergesort.cpp)
@@ -21,6 +22,8 @@ Example:
 Input   : array[] = {4, 5, 1, 7}
 Output  : array[] = {1, 4, 5, 7}
 ```
+<br />
+
 ## Day 3
 > [C++ program to find the minimum and maximum elements in an array.](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-3/minMax.cpp)
 ```
@@ -35,6 +38,8 @@ Input   : array[] = {7, 10, 4, 3, 20, 15}, k = 2
 Output  : 7
 Explanation : k is 2, so 2nd smallest element is 7
 ```
+<br />
+
 ## Day 4
 > [C++ program to sort the array of 0s, 1s, 2s in ascending order without using any sorting algorithm.](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-4/sorting.cpp) <br />
 > Given an array containing 0s, 1s, and 2s; you need to sort the array in ascending order.
@@ -43,6 +48,8 @@ Example:
 Input   : array[] = {2, 1, 1, 0, 0, 2, 0, 1}
 Output  : array[] = {0, 0, 0, 1, 1, 1, 2, 2}
 ```
+<br />
+
 ## Day 5
 > [C++ program to move all the negative numbers to the beginning of the array.](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-5/rearrange.cpp) <br />
 > An array contains both positive and negative numbers in random order.Rearrange the array elements so that all negative numbers appear before all positive numbers.
@@ -53,6 +60,8 @@ Output  : array[] = {-20, -5, -6, 10, 25, 33, 1}
 
 Note : Order of elements is not important here. 
 ```
+<br />
+
 ## Day 6
 > [C++ program to find union count of two arrays](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-6/union.cpp)
 ```
@@ -60,6 +69,7 @@ Example:
 Input   : array[] = {1, 2, 3, 4, 5}, array[] = {1, 2, 7}
 Output  : 6
 ```
+<br />
 
 ## Day 7
 > [C++ program to rotate an array by one element each](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-7/rotate.cpp)
@@ -68,6 +78,7 @@ Example:
 Input   : array[] = {1, 2, 3, 4, 5}
 Output  : array[] = {5, 1, 2, 3, 4}
 ```
+<br />
 
 ## Day 8
 > [C++ program to minimize the maximum difference between the heights](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-8/diff.cpp)<br />
@@ -86,6 +97,7 @@ Output: 11
 Explanation: The array can be modified as {6, 12, 9, 13, 17}.
 The difference between the largest and the smallest is 17-6 = 11.
 ```
+<br />
 
 ## Day 9
 > [C++ program to find minimum number of jumps reqired to reach end of array](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-9/NoOfJumps.cpp)
@@ -98,6 +110,7 @@ Example-2:
 Input   : array[] = {1, 4, 3, 2, 6, 7}
 Output  : 2
 ```
+<br />
 
 ## Day 10
 > [C++ program to find duplicates in an array](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-10/duplicate.cpp)<br />
@@ -116,6 +129,7 @@ Example-3:
 Input   : array[] = {1, 1}
 Output  : 1
 ```
+<br />
 
 ## Day 11
 > [C++ program to merge two sorted arrays without using extra space](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-11/merge.cpp)<br />
@@ -149,6 +163,7 @@ Explanation: Since you can't use any extra space, modify the given arrays to for
         arr1[] = {5, 10}
         arr2[] = {12, 18, 20}
 ```
+<br />
 
 ## Day 12
 > [C++ program to find largest sum contiguous sub array](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-12/kadanes.cpp)<br />
@@ -174,6 +189,7 @@ Output: -1
 
 Explanation: Max subarray sum is -1 of element (-1)
 ```
+<br />
 
 ## Day 13
 > [C++ program to merge the overlapping intervals](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-13/mergeIntervals.cpp)<br />
@@ -193,6 +209,7 @@ Input: intervals = [[1,4],[4,5]]
 Output: [[1,5]]
 Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 ```
+<br />
 
 ## Day 14
 > [C++ program to find best time to buy and sell stock](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-14/buyAndSellStock.cpp)<br />
@@ -212,6 +229,7 @@ Example 2:
         Output: 0
         Explanation: In this case, no transaction is done, i.e. max profit = 0.
 ```
+<br />
 
 ## Day 15
 > [C++ program to find common elements of given 3 arrays by user](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-15/commonOf3Arrays.cpp)<br />
@@ -230,6 +248,7 @@ Input:
 Output: 20 80
 Explanation: 20 and 80 are the only common elements in A, B and C.
 ```
+<br />
 
 ## Day 16
 > [C++ program to find the Inversion Count in the array.](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-16/inversionCount.cpp)<br />
@@ -258,6 +277,7 @@ Example 3:
         Explanation: As all the elements of array are same, so there is no inversion count.
 
 ```
+<br />
 
 ## Day 17
 > [C++ program to find count pairs with given sum](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-17/getPairsCount.cpp)<br />
@@ -278,6 +298,7 @@ Example 2:
         Output  : 6
         Explanation: Each 1 will produce sum 2 with any 1.
 ```
+<br />
 
 ## Day 18
 > [C++ program to find difference of max and min of eash sub array possible with value numOfStudents](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-18/chocolateDistribution.cpp)<br />
@@ -316,7 +337,7 @@ Example 3:
 
 >    We first sort the array arr[0..n-1], then find the subarray of size m with the minimum difference between the last and first elements.
 <br />
-<br />
+
 
 ## Day 19
 > [C++ program to find smallest sub array count with greatest sum](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-19/smallestSubArrayWithGreatestSum.cpp)<br />
