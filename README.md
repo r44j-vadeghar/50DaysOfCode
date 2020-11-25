@@ -315,3 +315,23 @@ Example 3:
 > **Approach :** <br />
 
 >    We first sort the array arr[0..n-1], then find the subarray of size m with the minimum difference between the last and first elements.
+
+## Day 19
+> [C++ program to find smallest sub array count with greatest sum](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-19/smallestSubArrayWithGreatestSum.cpp)<br />
+
+> Given an array of integers (A[])  and a number x, find the smallest subarray with sum greater than the given value. <br />
+
+> **Note:** There is at least one subarray with sum greater than x
+
+```
+Example 1:
+        input: A[] = {1, 4, 45, 6, 0, 19}, x  =  51
+        Output: 3
+        Explanation: Minimum length subarray is {4, 45, 6}
+
+Example 2:
+        input: A[] = {1, 10, 5, 2, 7}, x  = 9
+        Output: 1
+        Explanation: Minimum length subarray is {10}
+```
+
