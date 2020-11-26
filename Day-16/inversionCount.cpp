@@ -32,6 +32,7 @@ void getElements(long long *array, long long size) {
 // function to find inversion count
 long long int inversionCount(long long *array, long long size) {
     long long int count = 0;
+    // selection sort type of looping 
     for (int i = 0; i < size; i++)
     {
         for (int j = i + 1; j < size; j++)
