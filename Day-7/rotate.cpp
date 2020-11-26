@@ -12,6 +12,7 @@ int main(void) {
     cout << "Enter number of testcases: ";
     cin >> testcases;
 
+    // traversing through all the test cases
     for (int i = 0; i < testcases; i++)
     {
         //Specifying size of array
