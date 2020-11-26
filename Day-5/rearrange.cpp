@@ -7,6 +7,7 @@ void reArrange(int *array, int size);
 void printArray(int *array, int size);
 
 int main(void) {
+    // Specifying array
     int array[] = {1, -8, 4, 9, -6, -2};
 
     // specifying size of array
@@ -19,6 +20,7 @@ int main(void) {
     printArray(array, size);
 }
 
+// Function to rearrange elements of array
 void reArrange(int *array, int size) {
     int j = 0;
     for (int i = 0; i < size; i++)
@@ -32,6 +34,7 @@ void reArrange(int *array, int size) {
     }
 }
 
+// function to print array onto the screen
 void printArray(int *array, int size) {
     for (int i = 0; i < size; i++)
     {
