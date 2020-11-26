@@ -25,6 +25,7 @@ int main(void) {
     findDuplicate(nums);
 }
 
+// function to find duplicates in an array
 void findDuplicate(vector<int> &nums) {
     for (int i = 0; i < nums.size(); i++) {
         int x = abs(nums[i]);
