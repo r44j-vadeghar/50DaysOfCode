@@ -20,10 +20,12 @@ int main() {
         cin >> array[i];
     }
 
+    // Displaying given array as output onto the screen
     cout << "Given array is: \n";
     printArray(array, size);
 
     reverse(array, 0, size - 1);
+    // Displaying output array as output onto the screen
     cout << "Output array is: \n";
     printArray(array, size);
 }
