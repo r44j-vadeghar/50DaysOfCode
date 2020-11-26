@@ -357,4 +357,33 @@ Example 2:
         Output: 1
         Explanation: Minimum length subarray is {10}
 ```
+<br />
+
+## Day 20
+> [C++ program to find whether an array is subset of another array](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-20/isSubset.cpp)<br />
+
+> Given two arrays: arr1[0..m-1] of size m and arr2[0..n-1] of size n. Task is to check whether arr2[] is a subset of arr1[] or not. Both the arrays can be both unsorted or sorted. It may be assumed that elements in both array are distinct.<br />
+
+- Print "Yes"(without quotes) if arr2 is subset of arr1.
+- Print "No"(without quotes) if arr2 is not subset of arr1.
+
+```
+Example 1: 
+
+        Input : arr1[] = {11, 1, 13, 21, 3, 7}
+                arr2[] = {11, 3, 7, 1} 
+        Output: Yes
+
+Example 2:
+
+        Input : arr1[] = {1, 2, 3, 4, 5, 6}
+                arr2[] = {1, 2, 4} 
+        Output: Yes
+
+Example 3:
+
+        Input : arr1[] = {10, 5, 2, 23, 19}
+                arr2[] = {19, 5, 3} 
+        Output: No
+```
 
