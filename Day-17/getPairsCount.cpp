@@ -5,7 +5,6 @@ using namespace std;
 // class with public function
 class Solution {   
 public:
-
     //function to get count of pairs with given sum
     int getPairsCount(int *array, int size, int k) {
         int count = 0;
@@ -39,6 +38,6 @@ int main(void) {
 
     // creating object obj for solution class
     Solution obj;
-    // displaying output to the usre
+    // displaying output to the user
     cout << obj.getPairsCount(array, size, k) << endl;
 }
