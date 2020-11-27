@@ -386,4 +386,30 @@ Example 3:
                 arr2[] = {19, 5, 3} 
         Output: No
 ```
+<br />
 
+## Day 21
+> [C++ program to find whether the elements in the given array are palindrome or not](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-21/palindromeArray.cpp)<br />
+
+> Given a Integer array A[] of n elements. Your task is to complete the function PalinArray. Which will return 1 if all the elements of the Array are palindrome otherwise it will return 0.
+
+```
+Example:
+        Input: testcases - 2, 
+                testcase 1 : arraysize - 5, arr[] = 111 222 333 444 555
+                testcase 2 : arraysize - 3, arr[] = 121 131 20
+
+        Output:
+                testcase 1 : 1
+                testcase 2 : 0
+
+        Explanation:
+                For First test case.
+                n=5;
+                A[0] = 111    //which is a palindrome number.
+                A[1] = 222   //which is a palindrome number.
+                A[2] = 333   //which is a palindrome number.
+                A[3] = 444  //which is a palindrome number.
+                A[4] = 555  //which is a palindrome number.
+                As all numbers are palindrome so This will return 1.
+```
