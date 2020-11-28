@@ -413,3 +413,26 @@ Example:
                 A[4] = 555  //which is a palindrome number.
                 As all numbers are palindrome so This will return 1.
 ```
+
+## Day 21
+> [C++ program to find the minimum number of swaps required to bring all the numbers less than or equal to k together](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-22/minNumOfSwaps.cpp)<br />
+
+> Given an array of n positive integers and a number k. Find the minimum number of swaps required to bring all the numbers less than or equal to k together.
+
+```
+Example:
+        Input
+                testcases : 2
+                size : 5
+                array[] : {2, 1, 5, 6, 3}
+                k : 3
+                size : 7
+                array[] : {2, 7, 9, 5, 8, 7, 4}
+                k : 6
+        Output
+                No of swaps required : 1
+                No of swaps required : 2
+        Explanation:
+                1. To bring elements 2, 1, 3 together, swap element '5' with '3' such that final array will be- arr[] = {2, 1, 3, 6, 5}
+                2. To bring elements 2, 5, 4 together, swap element 7 with 5 & 9 with 4 such that the final array will be {2,5,4,7,8,7,9}   
+```
