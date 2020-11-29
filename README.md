@@ -413,8 +413,9 @@ Example:
                 A[4] = 555  //which is a palindrome number.
                 As all numbers are palindrome so This will return 1.
 ```
+<br />
 
-## Day 21
+## Day 22
 > [C++ program to find the minimum number of swaps required to bring all the numbers less than or equal to k together](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-22/minNumOfSwaps.cpp)<br />
 
 > Given an array of n positive integers and a number k. Find the minimum number of swaps required to bring all the numbers less than or equal to k together.
@@ -435,4 +436,24 @@ Example:
         Explanation:
                 1. To bring elements 2, 1, 3 together, swap element '5' with '3' such that final array will be- arr[] = {2, 1, 3, 6, 5}
                 2. To bring elements 2, 5, 4 together, swap element 7 with 5 & 9 with 4 such that the final array will be {2,5,4,7,8,7,9}   
+```
+<br />
+
+## Day 23
+> [C++ program to find the median of an array](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-23/median.cpp)<br />
+
+> Given an array arr[] of N integers, calculate the median.
+
+```
+Example 1:
+
+        Input: N = 5, arr[] = 90 100 78 89 67
+        Output: 89
+        Explanation: After sorting the array middle element is the median 
+
+Example 2:
+
+        Input: N = 4, arr[] = 56 67 30 79
+        Output: 61
+        Explanation: In case of even number of elements average of two middle elements is the median
 ```
