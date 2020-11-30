@@ -1,5 +1,5 @@
 # 100DaysOfCode
-> Trying to implement *data structures* and *algorithms* in this project. Everthing here in this project is **C++**
+ Trying to implement *data structures* and *algorithms* in this project. Everthing here in this project is **C++**
 
 # ***ARRAYS***
 ## Day 1
@@ -456,4 +456,24 @@ Example 2:
         Input: N = 4, arr[] = 56 67 30 79
         Output: 61
         Explanation: In case of even number of elements average of two middle elements is the median
+```
+<br />
+
+## Day 24
+> [C++ program to calculate the median of two sorted arrays of same size](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-24/medianOfSorted.cpp)<br />
+
+> There are 2 sorted arrays A and B of size n each. Write an algorithm to find the median of the array obtained after merging the above 2 arrays(i.e. array of length 2n).
+
+```
+Example 1: 
+    Input :
+        ar1[] = {1, 12, 15, 26, 38}
+        ar2[] = {2, 13, 17, 30, 45}
+    Output : 16
+
+Example 2:
+    Input :
+        ar1[] = {1, 2, 3, 6}
+        ar2[] = {4, 6, 8, 10}
+    Output : 5
 ```
