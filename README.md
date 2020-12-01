@@ -477,3 +477,35 @@ Example 2:
         ar2[] = {4, 6, 8, 10}
     Output : 5
 ```
+<br />
+
+## Day 25
+> [C++ program to calculate the median of two sorted arrays of different size](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-25/medianOfSortedDiffSize.cpp)<br />
+
+> 
+
+```
+Example 1:
+
+        Input: ar1[] = {-5, 3, 6, 12, 15}
+                ar2[] = {-12, -10, -6, -3, 4, 10}
+        Output : The median is 3.
+        Explanation : The merged array is : ar3[] = {-12, -10, -6, -5 , -3, 3, 4, 6, 10, 12, 15},
+                        So the median of the merged array is 3.
+
+Example 2:
+
+        Input: ar1[] = {2, 3, 5, 8}
+                ar2[] = {10, 12, 14, 16, 18, 20}
+        Output : The median is 11.
+        Explanation : The merged array is : ar3[] = {2, 3, 5, 8, 10, 12, 14, 16, 18, 20}
+                if the number of the elements are even, so there are two middle elements, take the average between the two : (10 + 12) / 2 = 11.      
+
+Algorithm : 
+1. Create an array "mergeArray[]" of length (size1 + size2), if size1 and size2 are the lengths of given input arrays, say "arr1[]" and "arr2[]".
+2. Simultaneously traverse through array1[] and array2[].
+Pick smaller of current elements in arr1[] and arr2[], copy this smaller element to next position in mergeArray[] and move ahead in mergeArray[] and the array whose element is picked.
+3. If there are remaining elements in arr1[] or arr2[], copy them also in mergeArray[].
+5. If there are odd number of elements in mergeArray[], then print the value of "mergeArray[size / 2]". Which gives middle element of array
+If there are even number of elements in mergeArray[], then median is the average of two middle elements, i.e, (mergeArray[size / 2] + mergeArray[(size / 2) - 1]) / 2.
+```

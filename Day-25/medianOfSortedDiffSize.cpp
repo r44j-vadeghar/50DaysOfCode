@@ -47,10 +47,8 @@ void readArray(int *array, int size) {
 
 // function to find median of the array
 int median(int array[], int size) {
-    int diff;
     if (isEven(size)) {
-        diff = (array[size/2] - array[(size/2) - 1]) / 2;
-        return array[(size/2) - 1] + diff;
+        return (array[size / 2] + array[(size / 2) - 1]) / 2;
     }
     return array[size / 2];
 }
