@@ -507,3 +507,26 @@ Pick smaller of current elements in arr1[] and arr2[], copy this smaller element
 5. If there are odd number of elements in mergeArray[], then print the value of "mergeArray[size / 2]". Which gives middle element of array
 If there are even number of elements in mergeArray[], then median is the average of two middle elements, i.e, (mergeArray[size / 2] + mergeArray[(size / 2) - 1]) / 2.
 ```
+<br />
+
+## Day 26
+> [C++ program to put positive and negative elements alternatively in sequence](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-26/alternatePos%26Neg.cpp)<br />
+
+```     
+Example 1 :
+
+        Input:  arr[] = {1, 2, 3, -4, -1, 4}
+        Output: arr[] = {-4, 1, -1, 2, 3, 4}
+
+Example 2 :
+
+        Input:  arr[] = {-5, -2, 5, 2, 4, 7, 1, 8, 0, -8}
+        output: arr[] = {-5, 5, -2, 2, -8, 4, 7, 1, 8, 0} 
+
+Algorithm : 
+1. count number of positive elements(posCount) and negative elements(negCount). Create pos array of posCount size to store positive elements and neg array of negCount size to store negative elements.
+2. then merge them into main array like at positions that are even and 0th position too... store neg elements one by one until index value(j) reaches to negCount. After reaching negCount, we can break and store positive elements at other indices of array.
+And positions that are odd... store pos elements one by one until index value(i) reaches to posCount. After reaching posCount, we can break and store negative elements at other indices of array.
+3. Like this we can get alternating positive and negative elements into the array as per sequence.
+```
+
