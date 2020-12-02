@@ -512,6 +512,11 @@ If there are even number of elements in mergeArray[], then median is the average
 ## Day 26
 > [C++ program to put positive and negative elements alternatively in sequence](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-26/alternatePos%26Neg.cpp)<br />
 
+> Given an array of positive and negative numbers, arrange them in an alternate fashion such that every positive number is followed by negative and vice-versa.
+>>    Number of positive and negative numbers need not be equal. 
+>>    If there are more positive numbers they appear at the end of the array. 
+>>    If there are more negative numbers, they too appear in the end of the array.
+
 ```     
 Example 1 :
 
