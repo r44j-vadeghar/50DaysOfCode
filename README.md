@@ -536,4 +536,3 @@ And positions that are odd... store pos elements one by one until index value(i)
 ```
 
 [Go to TOP](#ARRAYS)
-          section_title<a name="ARRAYS"></a>  
