@@ -535,3 +535,5 @@ And positions that are odd... store pos elements one by one until index value(i)
 3. Like this we can get alternating positive and negative elements into the array as per sequence.
 ```
 
+[Go to TOP](#ARRAYS)
+          section_title<a name="ARRAYS"></a>  
