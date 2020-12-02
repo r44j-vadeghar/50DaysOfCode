@@ -480,6 +480,9 @@ Example 2:
 <br />
 
 ## Day 25
+
+*** 75 more days to go...<kbd>:wink:</kbd>
+
 > [C++ program to calculate the median of two sorted arrays of different size](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-25/medianOfSortedDiffSize.cpp)<br />
 
 ```
