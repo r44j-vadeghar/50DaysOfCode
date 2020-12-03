@@ -501,15 +501,14 @@ Example 2:
         Output : The median is 11.
         Explanation : The merged array is : ar3[] = {2, 3, 5, 8, 10, 12, 14, 16, 18, 20}
                 if the number of the elements are even, so there are two middle elements, take the average between the two : (10 + 12) / 2 = 11.      
-
-Algorithm : 
-1. Create an array "mergeArray[]" of length (size1 + size2), if size1 and size2 are the lengths of given input arrays, say "arr1[]" and "arr2[]".
-2. Simultaneously traverse through array1[] and array2[].
-Pick smaller of current elements in arr1[] and arr2[], copy this smaller element to next position in mergeArray[] and move ahead in mergeArray[] and the array whose element is picked.
-3. If there are remaining elements in arr1[] or arr2[], copy them also in mergeArray[].
-5. If there are odd number of elements in mergeArray[], then print the value of "mergeArray[size / 2]". Which gives middle element of array
-If there are even number of elements in mergeArray[], then median is the average of two middle elements, i.e, (mergeArray[size / 2] + mergeArray[(size / 2) - 1]) / 2.
 ```
+_Algorithm_ : 
+* Create an array "mergeArray[]" of length (size1 + size2), if size1 and size2 are the lengths of given input arrays, say "arr1[]" and "arr2[]".
+* Simultaneously traverse through array1[] and array2[].
+Pick smaller of current elements in arr1[] and arr2[], copy this smaller element to next position in mergeArray[] and move ahead in mergeArray[] and the array whose element is picked.
+* If there are remaining elements in arr1[] or arr2[], copy them also in mergeArray[].
+* If there are odd number of elements in mergeArray[], then print the value of "mergeArray[size / 2]". Which gives middle element of array
+If there are even number of elements in mergeArray[], then median is the average of two middle elements, i.e, (mergeArray[size / 2] + mergeArray[(size / 2) - 1]) / 2.
 <br />
 
 ## Day 26
@@ -530,13 +529,12 @@ Example 2 :
 
         Input:  arr[] = {-5, -2, 5, 2, 4, 7, 1, 8, 0, -8}
         output: arr[] = {-5, 5, -2, 2, -8, 4, 7, 1, 8, 0} 
-
-Algorithm : 
-1. count number of positive elements(posCount) and negative elements(negCount). Create pos array of posCount size to store positive elements and neg array of negCount size to store negative elements.
-2. then merge them into main array like at positions that are even and 0th position too... store neg elements one by one until index value(j) reaches to negCount. After reaching negCount, we can break and store positive elements at other indices of array.
-And positions that are odd... store pos elements one by one until index value(i) reaches to posCount. After reaching posCount, we can break and store negative elements at other indices of array.
-3. Like this we can get alternating positive and negative elements into the array as per sequence.
 ```
+_Algorithm_ : 
+* count number of positive elements(posCount) and negative elements(negCount). Create pos array of posCount size to store positive elements and neg array of negCount size to store negative elements.
+* then merge them into main array like at positions that are even and 0th position too... store neg elements one by one until index value(j) reaches to negCount. After reaching negCount, we can break and store positive elements at other indices of array.
+And positions that are odd... store pos elements one by one until index value(i) reaches to posCount. After reaching posCount, we can break and store negative elements at other indices of array.
+* Like this we can get alternating positive and negative elements into the array as per sequence.
 <br />
 
 ## Day 27
@@ -566,15 +564,18 @@ Example 4:
 ```
 _Algorithm_ :
         
-* Brute-Force : A simple solution is be traverse each element and check if there’s another number in the array which can be added to it to give sum. But the time complexity is O(n^2). And commented as method 1 in code. Check out
+* Brute-Force : (time complexity - O(n square))
+    * A simple solution is be traverse each element and check if there’s another number in the array which can be added to it to give sum. But the time complexity is O(n^2). And commented as method 1 in code. Check out
 
-* Another efficient approach :
+* Another efficient approach : (time complexity - O(n))
     * Create a map to store keys of each number in the array with value declared to 1 for every key. (Single traversal is required)
     * In the next traversal, for every element check if it can be combined with any other element (other than itself!) to give the desired sum. 
     Increment the counter accordingly.
     * After completion of second traversal, we’d have twice the required value stored in counter because every pair is counted two times. 
     Hence divide count by 2 and return.
     * Here time complexity is O(n).
+<br />
+
 
 
 
