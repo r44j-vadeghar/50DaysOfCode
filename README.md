@@ -17,6 +17,7 @@ Once go through them and practice one after other. If you have any doubts refer 
 
 Before going any further, watch this amazing video [cracking interview at FANG](https://www.youtube.com/watch?v=YJZCUhxNCv8&t=1468s) <br />
 
+In this video he mentioned below text books as,<br />
 The two bibles of coding interview: <br />
 For beginners -> [Programming Interview Exposed](https://github.com/shshankar1/ebooks/blob/master/Programming%20Interviews%20Exposed.PDF) <br />
 If you feel comfortable with DS & Algos. Then, <br />
