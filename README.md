@@ -537,6 +537,44 @@ Algorithm :
 And positions that are odd... store pos elements one by one until index value(i) reaches to posCount. After reaching posCount, we can break and store negative elements at other indices of array.
 3. Like this we can get alternating positive and negative elements into the array as per sequence.
 ```
+<br />
+
+## Day 27
+> [C++ program to find the number of pairs in an array with given sum](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-27/countOfPairsWithSum.cpp)<br />
+
+>  Given an array of integers, and a number ‘sum’. Find the number of pairs of integers in the array whose sum is equal to ‘sum’.
+
+```     
+Example 1:
+        Input  :  arr[] = {1, 5, 7, -1}, sum = 6
+        Output :  2
+        Pairs with sum 6 are (1, 5) and (7, -1)
+
+Example 2:
+        Input  :  arr[] = {1, 5, 7, -1, 5}, sum = 6
+        Output :  3
+        Pairs with sum 6 are (1, 5), (7, -1) & (1, 5)         
+
+Example 3:
+        Input  :  arr[] = {1, 1, 1, 1}, sum = 2
+        Output :  6
+        There are 3! pairs with sum 2.
+
+Example 4:
+        Input  :  arr[] = {10, 12, 10, 15, -1, 7, 6, 5, 4, 2, 1, 1, 1}, sum = 11
+        Output :  9
+```
+_Algorithm_ :
+        
+* Brute-Force : A simple solution is be traverse each element and check if there’s another number in the array which can be added to it to give sum. But the time complexity is O(n^2). And commented as method 1 in code. Check out
+
+* Another efficient approach :
+    * Create a map to store keys of each number in the array with value declared to 1 for every key. (Single traversal is required)
+    * In the next traversal, for every element check if it can be combined with any other element (other than itself!) to give the desired sum. 
+    Increment the counter accordingly.
+    * After completion of second traversal, we’d have twice the required value stored in counter because every pair is counted two times. 
+    Hence divide count by 2 and return.
+    * Here time complexity is O(n).
 
 
 
