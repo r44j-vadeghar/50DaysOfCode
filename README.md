@@ -23,9 +23,10 @@ For beginners -> [Programming Interview Exposed](https://github.com/shshankar1/e
 If you feel comfortable with DS & Algos. Then, <br />
 For intermediate -> [Cracking the coding interview](https://github.com/alxerg/Books-1/blob/master/Cracking%20the%20Coding%20Interview%2C%206th%20Edition%20189%20Programming%20Questions%20and%20Solutions.pdf) <br /><br />
 
-If the goal is not reached in 100 days. Then I’ll try to extend it to ***200 Days of Code*** <br /><br />
+If the goal is not reached in 100 days. Then I’ll try to extend it to ***200 Days of Code*** <br />
+This, is Raja Narayana, a 2nd year engineering student. <br />
 
-With that said. This, is Raja Narayana, a 2nd year engineering student. Let’s dive into it…<br />
+With that said. Let’s dive into it…<br />
 First with index<br />
 1. [Arrays](#ARRAYS)
 2. [Matrix](#)
