@@ -1,6 +1,4 @@
 # 100DaysOfCode
-We all know, consistency is key to many aspects of our life. So, it’s time to take action towards consistency. <br />
-
 This ***100 Days of Code*** is all about being consistent with something related to code in particular for about 100 days. Maybe, an hour a day makes us go through 100 hours throughout the course. So, 100 hours are more for getting started with something. Therefore, 100 Days of Code. <br /><br />
 
 My _100 Days of Code_ is all about ***Data Structures & Algorithms*** through **C++**. At the end of this course, I think I’ll be getting a lot of practice on Data Structures and Algorithms.<br />
@@ -625,6 +623,34 @@ _Algorithm_ :
     * Here time complexity is O(n).
 <br />
 
+## Day 27
+
+*** Big Mistake: *** Found that comments in my code are killing readability of code. <br />
+
+Chech out this one [Putting comments in code: the good, the bad, and the ugly](https://www.freecodecamp.org/news/code-comments-the-good-the-bad-and-the-ugly-be9cc65fbf83/amp/) <br />
+
+> [C++ program to find all elements in an array that appear more than n/k times](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-27/countOfPairsWithSum.cpp)<br />
+
+>  Given an array of size n, find all elements in array that appear more than n/k times.
+
+```     
+Example:
+        Input : array = {3, 1, 2, 2, 1, 2, 3, 3} and k = 4
+        Output : 2, 3
+
+        Explanation : The size of array is 8 (or n = 8), so we need to find all elements that appear more than 2 (or 8/4) times. 
+        There are two elements that appear more than two times, 2 and 3.
+```
+_Algorithm_ :
+
+Approach : (time complexity - O(n))
+    1. initialise an unordered map with the help of unordered_map header file.
+    2. declare keys of unordered map to array elements
+    3. increment those key values for every element of array.
+        for example... array[0] = 2; then increment unordered map of key 2... then value at key to gets incremented
+    4. then print of keys of unordered map whose value is greater than n / k.
+
+<br />
 
 
 
