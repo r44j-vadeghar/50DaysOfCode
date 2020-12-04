@@ -625,7 +625,7 @@ _Algorithm_ :
 
 ### Big Mistake: Found that comments in my code are killing readability of code.
 
-Chech out this one [Putting comments in code: the good, the bad, and the ugly](https://www.freecodecamp.org/news/code-comments-the-good-the-bad-and-the-ugly-be9cc65fbf83/amp/) <br />
+Chech out this one [Putting comments in code: the good, the bad, and the ugly](https://www.freecodecamp.org/news/code-comments-the-good-the-bad-and-the-ugly-be9cc65fbf83/amp/) <br /><br />
 
 ## Day 27
 
