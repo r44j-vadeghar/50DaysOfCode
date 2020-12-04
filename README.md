@@ -629,7 +629,7 @@ Chech out this one [Putting comments in code: the good, the bad, and the ugly](h
 
 ## Day 27
 
-> [C++ program to find all elements in an array that appear more than n/k times](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-27/countOfPairsWithSum.cpp)<br />
+> [C++ program to find all elements in an array that appear more than n/k times](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-28/nBykTimes.cpp)<br />
 
 >  Given an array of size n, find all elements in array that appear more than n/k times.
 
