@@ -623,11 +623,11 @@ _Algorithm_ :
     * Here time complexity is O(n).
 <br />
 
-## Day 27
-
-*** Big Mistake: *** Found that comments in my code are killing readability of code. <br />
+### Big Mistake: Found that comments in my code are killing readability of code.
 
 Chech out this one [Putting comments in code: the good, the bad, and the ugly](https://www.freecodecamp.org/news/code-comments-the-good-the-bad-and-the-ugly-be9cc65fbf83/amp/) <br />
+
+## Day 27
 
 > [C++ program to find all elements in an array that appear more than n/k times](https://github.com/RajVadeghar/100DaysOfCode/blob/main/Day-27/countOfPairsWithSum.cpp)<br />
 
