@@ -657,3 +657,34 @@ _Algorithm_ :
 4. return maxCount
 
 <br />
+
+## Day 30
+
+> [C++ program to find the product of the subarray with maximum product](https://github.com/RajVadeghar/100DaysOfCode/blob/main/arrays/Day-30/maxProductSubArray.cpp)<br />
+
+> Given an array Arr that contains N integers (may be positive, negative or zero). Find the product of the maximum product subarray.
+
+
+```     
+Example 1:
+        Input : N = 5, arr[] = { 6, -3, -10, 0, 2 }
+        Output: 180
+        Explanation: Subarray with maximum product is  6, -3, -10 which gives product as 180.
+Example 2:
+        Input : N = 6, arr[] = { 2, 3, 4, 5, -1, 0 }
+        Output: 120
+        Explanation: Subarray with maximum product is 2, 3, 4, 5 which gives product as 120.
+Example 3:
+        Input: N = 5, arr[] = { -2, -3, 0, -2, -40 }
+        Output: 80 
+        Explanation : Subarray with maximum product is -2, -40 which gives product as 80.
+```
+_Algorithm_ :
+
+1. Traverse array from left to right keeping two variables minVal and maxVal which represents the minimum and maximum product value till the ith index of the array.
+2. If the ith element of the array is negative that means now the values of minVal and maxVal will be swapped. 
+As the value of maxVal will become minimum by multiplying it with a negative number.
+3. Create a variable maxProduct which stores the maximum of maxVal.
+4. Update maxProduct for every iteration.
+
+<br />
