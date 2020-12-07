@@ -26,7 +26,7 @@ This, is Raja Narayana, a 2nd year engineering student. <br />
 With that said. Let’s dive into it…<br />
 First with index<br />
 1. [Arrays](https://github.com/RajVadeghar/100DaysOfCode/blob/main/arrays_content.md)
-2. [Matrix](#)
+2. [Matrix](https://github.com/RajVadeghar/100DaysOfCode/blob/main/matrix_contents.md)
 3. [Strings](#)
 4. [Searching and Sorting](#)
 5. [LinkedLists](#)
