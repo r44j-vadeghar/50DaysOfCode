@@ -43,14 +43,10 @@ So that, next time this operation is done with 2nd coloumn. This incrementation 
 > [Search for an element in a Matrix](https://github.com/RajVadeghar/100DaysOfCode/blob/main/matrix/Day-32/searchElemIn2Dmatrix.cpp)<br />
 
 > C++ program to search for an element in a 2D Matrix.
-
 >> Given a matrix of size m x n matrix and a target element. <br />
-
 >> The matrix has the following properties: <br />
-
 >> 1. Integers in each row are sorted from left to right. <br />
 >> 2. The first integer of each row is greater than the last integer of the previous row. <br />
-
 >> Print 1 if the target element is found in the matrix, otherwise print 0.
 
 ```     
