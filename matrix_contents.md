@@ -15,7 +15,9 @@ Example 1:
                 {13, 14, 15,16}}
     Output: 
         1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10
-
+```
+![Explanation image](https://www.geeksforgeeks.org/wp-content/uploads/spiral-matrix.png)
+```
 Example 2:
     Input: rows = 3, coloumns = 4  
             matrix[][] = {{1, 2, 3, 4},
