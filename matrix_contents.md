@@ -82,7 +82,7 @@ Output : 0
 ```
 _Algorithm_ :
 
-Method 1 : (Linear search)
+**Method 1 : (Linear search)**
 
 Search for the element by traversing linearly in the matrix.
 1. Traverse through each row, compare the target with every element in each row.
@@ -90,7 +90,7 @@ Search for the element by traversing linearly in the matrix.
 This method takes O(m*n) time.
 
 
-Method 2 : (Binary search)
+**Method 2 : (Binary search)**
 
 As each row is sorted, we can use binary search for individual rows.
 
@@ -99,7 +99,7 @@ As each row is sorted, we can use binary search for individual rows.
 This method takes O(m log n) time.
 
 
-Method 3 :
+**Method 3 :**
 
 1. Start from the top right corner of the matrix.(From the last element in first row)
     For that, create two variables to store the indices, 'currentRow' = 0, 'colEnd' = matrix[0].size() - 1.
@@ -112,6 +112,6 @@ Method 3 :
 
 This method takes O(m+n) time.
 
-The code here is written for Method 3.
+**The code here is written for Method 3.**
 
 <br />
