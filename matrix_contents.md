@@ -118,3 +118,33 @@ This method takes O(m+n) time.
 **The code here is written for Method 3.**
 
 <br />
+
+
+## Day 33
+
+> [Row with Maximum number of 1s in a Boolean Matrix.](https://github.com/RajVadeghar/100DaysOfCode/blob/main/matrix/Day-33/rowWithMax1s.cpp)<br />
+
+> C++ program to find the row with maximum number of 1s. Given a boolean 2D array, where each row is sorted. Find the row with the maximum number of 1s. Print the index of the row with maximum number of 1s. If there is no such row, print -1.
+
+```
+Example:
+        Input matrix : rows = 4, columns = 4
+                        0 1 1 1
+                        0 0 1 1
+                        1 1 1 1  // this row has maximum 1s
+                        0 0 0 0
+        Output: 2 (0 based indexing) 
+```
+_Algorithm_ :
+1. Take 2 variables, row = 0, col = 0 to traverse through the matrix column wise.
+2. Start from the first column, and traverse through all columns.
+    For the first column, keep the row = 0 and vary col from 0 to columns, and check if any matrix[row][col] is 1.
+3. If there is a 1 in any column, return the row number i.e 'row'.
+    As the rows are sorted, the row in which 1 occurs in the starting columns, that row has max number of 1s. 
+4. If there are no 1s in the matrix, return -1.
+
+_Another Approach_ : 
+By counting the number of 1s in each row, and maximum of all the counts is returned.
+Both the methods take O(rows*columns) time in worst case.
+
+<br />
