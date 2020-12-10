@@ -149,7 +149,7 @@ Both the methods take O(rows*columns) time in worst case.
 
 <br />
 
-## Day 33
+## Day 34
 
 > [Print the matrix elements in Sorted Order](https://github.com/RajVadeghar/100DaysOfCode/blob/main/matrix/Day-34/sortMatrix.cpp)<br />
 
