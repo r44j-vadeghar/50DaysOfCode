@@ -148,3 +148,39 @@ By counting the number of 1s in each row, and maximum of all the counts is retur
 Both the methods take O(rows*columns) time in worst case.
 
 <br />
+
+## Day 33
+
+> [Print the matrix elements in Sorted Order](https://github.com/RajVadeghar/100DaysOfCode/blob/main/matrix/Day-34/sortMatrix.cpp)<br />
+
+> C++ program to print the elements of a matrix in sorted order. Given an rows x columns matrix, where every row and column is sorted in non-decreasing order. Print all elements of matrix in sorted order.
+
+```
+Example 1 :
+
+    Input : rows = 4, columns = 4
+            matrix = {{10, 20, 30, 40},
+                    {15, 25, 35, 45},
+                    {27, 29, 37, 48},
+                    {32, 33, 39 50}}
+    Output : 10 15 20 25 27 29 30 32 33 35 37 39 40 45 48 50
+
+Example 2 :
+
+    Input : rows = 3, columns = 3
+            matrix = {{1, 3, 4},
+                    {2, 6, 7},
+                    {5, 8, 9}}
+    Output : 1 2 3 4 5 6 7 8 9 
+
+```
+_Algorithm_ :
+1. Create a output array of size rows x columns.
+2. Traverse the matrix from start to end and insert all the elements in output array.
+3. Sort and print the output array.
+
+_Complexity Analysis_ :
+1. Time Complexity : O(R*C log (R*C))).
+2. Space Complexity : O(R*C), since the output array is of size R*C.
+
+<br />
