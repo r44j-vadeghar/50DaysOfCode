@@ -184,3 +184,38 @@ _Complexity Analysis_ :
 2. Space Complexity : O(R*C), since the output array is of size R*C.
 
 <br />
+
+## Day 35
+
+> [Median in a row-wise sorted Matrix](https://github.com/RajVadeghar/100DaysOfCode/blob/main/matrix/Day-35/median.cpp)<br />
+
+>  C++ program to find the median of a matrix. Given an unsorted matrix of size R x C. Find the median of the matrix.
+
+```
+Example 1 :
+    Input : R = 3, C = 3
+            matrix = {{1, 3, 5}, 
+                    {2, 6, 9}, 
+                    {3, 6, 9}}
+    Output: 5
+    Explanation : Sorting matrix elements gives us {1,2,3,3,5,6,6,9,9}. Hence, 5 is median.
+
+Example 2 :
+    Input:
+    R = 3, C = 1
+    matrix = {{1}, {2}, {3}}
+    Output: 2
+
+Example 3 :
+    Input : R = 2, C = 2
+            matrix = {{6, 5}, 
+                    {1, 3}}
+    Output : 4
+```
+_Algorithm_ :
+1. Create a vector 'mergedMatrix' of size R x C.
+2. Traverse through the given matrix and add all elements to the vector 'mergedMatrix'.
+3. Sort the 'mergedMatrix' vector.
+4. If the vector has odd number of elements, then median is the middle element. If the vector has even number of elements, then median is the average of middle 2 elements.
+
+<br />
