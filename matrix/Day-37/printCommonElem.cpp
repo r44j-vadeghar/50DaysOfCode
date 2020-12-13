@@ -12,7 +12,7 @@
     Explanation : 8 and 1 are present in all rows.
 
     Algorithm :
-    1. Insert all elements of the first row in an map. 
+    1. Insert all elements of the first row in a map. 
     2. For every other element in remaining rows, we check if it is present in the map. 
     3. If it is present in the map and is not duplicated in current row, we increment count of the element in map by 1, else we ignore the element. 
     4. If an element appears number of times equal to number of rows, we print the element.
