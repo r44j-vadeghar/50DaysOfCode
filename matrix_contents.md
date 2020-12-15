@@ -331,3 +331,27 @@ _Algorithm_ :
 3. For each square cycle, we swap the elements involved with the corresponding cell in the matrix in the clockwise direction. We just need a temporary variable for this.
 
 <br />
+
+## Day 39
+
+> [Find a specific pair in Matrix](https://github.com/RajVadeghar/100DaysOfCode/blob/main/matrix/Day-39/specificPair.cpp)<br />
+
+> Given an n x n matrix mat[n][n] of integers, find the maximum value of mat(c, d) – mat(a, b) over all choices of indexes such that both c > a and d > b.
+
+```
+Example:
+    Input:
+            mat[N][N] = {{ 1, 2, -1, -4, -20 },
+                        { -8, -3, 4, 2, 1 }, 
+                        { 3, 8, 6, 1, 3 },
+                        { -4, -1, 1, 7, -6 },
+                        { 0, -4, 10, -5, 1 }};
+    Output: 18
+    Explanation: The maximum value is 18 as mat[4][2] - mat[1][0] = 18 has maximum difference.
+```
+_Algorithm_ :
+1. Find max value of matrix and store in maxVal variable and keep track of its location with maxRow and maxCol variables
+2. Then find min value in matrix[maxRow][maxCol] and store in minVal variable
+3. return maxVal - minVal
+
+<br />
