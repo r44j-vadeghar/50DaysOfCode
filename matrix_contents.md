@@ -384,3 +384,35 @@ _Algorithm_ :
 5. If not even then return vector array of mid
 
 <br />
+
+> [Max rectangle](https://github.com/RajVadeghar/100DaysOfCode/blob/main/matrix/Day-40/maxArea.cpp)<br />
+
+> Given a binary matrix. Find the maximum area of a rectangle formed only of 1s in the given matrix.
+
+```
+Example 1:
+        Input: n = 4, m = 4
+                M[][] = {{0 1 1 0},
+                        {1 1 1 1},
+                        {1 1 1 1},
+                        {1 1 0 0}}
+        Output: 8
+        Explanation: For the above test case the matrix will look like
+                    0 1 1 0
+                    1 1 1 1
+                    1 1 1 1
+                    1 1 0 0
+                    the max size rectangle is 
+                    1 1 1 1
+                    1 1 1 1
+                    and area is 4 *2 = 8.
+```
+_Algorithm_ :
+1. Run a loop to traverse through the rows.
+2. Now If the current row is not the first row then update the row as next point...
+3. If matrix[i][j] is not zero then matrix[i][j] = matrix[i-1][j] + matrix[i][j].
+4. Find the maximum rectangular area under the histogram, consider the ith row as heights of bars of a histogram.
+5. This can be calculated as given in this article Largest Rectangular Area in a Histogram
+4. Do the previous two steps for all rows and print the maximum area of all the rows.
+
+<br />
