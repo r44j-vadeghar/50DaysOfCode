@@ -4,7 +4,6 @@
 
 > Given a matrix of size rows*coloumns. Traverse the matrix in spiral form.
 
-![day-42 image](https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/Day-41.png)
 ```
 Example 1:
     Input: ["h","e","l","l","o"]
@@ -14,6 +13,8 @@ Example 2:
     Input: ["H","a","n","n","a","h"]
     Output: ["h","a","n","n","a","H"]
 ```
+![day-41 image](https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/Day-41.png)
+
 _Algorithm_ :
 
 1. Take 2 varibles i & j and declare them to i = 0, j = string length - 1(since stings index is from 0)
