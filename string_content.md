@@ -68,7 +68,8 @@ Example:
                 temp = str1 + str2 = "ABACDABACD"
                 Since str2 is a substring of temp, str1 and str2 are rotations of each other.
 ```
-![day-43 image](https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-43.png){:height="50%" width="50%"}
+<!-- ![day-43 image](https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-43.png){:height="50%" width="50 -->
+<img src="https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-43.png" alt="day-43 image" width="50%" height="50%">
 
 _Algorithm_:
 1. Create a temp string and store concatenation of str1 to str2 in temp.
