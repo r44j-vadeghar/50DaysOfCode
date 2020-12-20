@@ -56,7 +56,7 @@ I used Algorithm 1 here
 
 ## Day 43
 
-> [A Program to check if strings are rotations of each other or not](https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/Day-43/rotateString.cpp){:height="50%" width="50%"}<br />
+> [A Program to check if strings are rotations of each other or not](https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/Day-43/rotateString.cpp)<br />
 
 > C++ program to check if two given strings are rotations of  each other. Given a string str1 and a string str2. Print 1 if the str2 is the rotation of str1, print 0 if it is not the rotation.
 
@@ -68,7 +68,7 @@ Example:
                 temp = str1 + str2 = "ABACDABACD"
                 Since str2 is a substring of temp, str1 and str2 are rotations of each other.
 ```
-![day-43 image](https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-43.png)
+![day-43 image](https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-43.png){:height="50%" width="50%"}
 
 _Algorithm_:
 1. Create a temp string and store concatenation of str1 to str2 in temp.
