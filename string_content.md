@@ -78,3 +78,27 @@ _Algorithm_:
 2. If str2 is a substring of temp then str1 and str2 are rotations of each other.
 
 <br />
+
+## Day 44
+
+> [Print all the duplicates in the input string](https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/Day-44/duplicatesInString.cpp)<br />
+
+> C++ program to print all the duplicates and their counts in the input string .
+
+```
+Example 1:
+        Input : str = "example"
+        Output : e, count = 2
+    Example 2:
+        Input : str = "helloworld"
+        Output: l, count = 3
+                o, count = 2
+```
+<img src="https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-44.png" alt="day-44 image" width="40%" height="40%">
+
+_Algorithm_:
+1. Create an array of 26 alphabets
+2. increment array value found in string
+3. if value found more than once, then it's a duplicate. Print that value
+
+<br />
