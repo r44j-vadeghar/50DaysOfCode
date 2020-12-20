@@ -13,7 +13,8 @@ Example 2:
     Input: ["H","a","n","n","a","h"]
     Output: ["h","a","n","n","a","H"]
 ```
-![day-41 image](https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/Day-41.png)
+<!-- ![day-41 image](https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/Day-41.png) -->
+<img src="https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-41.png" alt="day-41 image" width="50%" height="50%">
 
 _Algorithm_ :
 
@@ -39,7 +40,8 @@ Example 2:
     Output: 0
     Explanation: S is not a palindrome
 ```
-![day-42 image](https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-42.png)
+<!-- ![day-42 image](https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-42.png) -->
+<img src="https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-42.png" alt="day-42 image" width="50%" height="50%">
 
 _Algorithm_ - 1:
 1. Traverse from beginning to half of the string using variable i = 0.
