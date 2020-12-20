@@ -14,7 +14,7 @@ Example 2:
     Output: ["h","a","n","n","a","H"]
 ```
 <!-- ![day-41 image](https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/Day-41.png) -->
-<img src="https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-41.png" alt="day-41 image" width="50%" height="50%">
+<img src="https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/Day-41.png" alt="day-41 image" width="40%" height="40%">
 
 _Algorithm_ :
 
@@ -41,7 +41,7 @@ Example 2:
     Explanation: S is not a palindrome
 ```
 <!-- ![day-42 image](https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-42.png) -->
-<img src="https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-42.png" alt="day-42 image" width="50%" height="50%">
+<img src="https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-42.png" alt="day-42 image" width="40%" height="40%">
 
 _Algorithm_ - 1:
 1. Traverse from beginning to half of the string using variable i = 0.
@@ -71,7 +71,7 @@ Example:
                 Since str2 is a substring of temp, str1 and str2 are rotations of each other.
 ```
 <!-- ![day-43 image](https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-43.png){:height="50%" width="50 -->
-<img src="https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-43.png" alt="day-43 image" width="50%" height="50%">
+<img src="https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-43.png" alt="day-43 image" width="40%" height="40%">
 
 _Algorithm_:
 1. Create a temp string and store concatenation of str1 to str2 in temp.
