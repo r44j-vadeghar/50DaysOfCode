@@ -102,3 +102,36 @@ _Algorithm_:
 3. if value found more than once, then it's a duplicate. Print that value
 
 <br />
+
+## Day 45
+
+> [Program to Check if a string is a valid shuffle of two distinct strings](https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/Day-45/shuffleString.cpp)<br />
+
+> In the below example, we have a string array named results. It contains two strings: 1XY2 and Y12X. We are checking if these two strings are valid shuffle of strings first(XY) and second(12). Here, the program says 1XY2 is a valid shuffle of XY and 12. However, Y12X is not a valid shuffle. This is because Y12X has altered the order of string XY. Here, Y is used before X. Hence, to be a valid shuffle, the order of string should be maintained.
+
+```
+Example-1:
+    Input: 
+        str1 = XY
+        str2 = 12
+        result = 1XY2
+    Output:
+        1XY2 is a valid shuffle of XY and 12
+Example-2:
+    Input: 
+        str1 = XY
+        str2 = 12
+        result = Y12X
+    Output:
+        Y12X is not a valid shuffle of XY and 12
+```
+<img src="https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-45.png" alt="day-45 image" width="40%" height="40%">
+
+_Algorithm_:
+1. Take 3 variables i, j, k to keep track of str1, str2, and result
+2. increment k and i if first character of result matches with first character of first string 
+3. increment k and j check if first character of result matches the first character of second string
+4. if the character doesn't match
+5. return k == length of result
+
+<br />
