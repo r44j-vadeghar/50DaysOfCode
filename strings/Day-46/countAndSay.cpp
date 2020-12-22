@@ -25,37 +25,27 @@ using namespace std;
 
 string countAndSay(int n);
 
-int main()
-{
+int main() {
     int n;
     cin >> n;
 
     cout << countAndSay(n);
 }
 
-string countAndSay(int n)
-{
-    // Base case
+string countAndSay(int n) {
     if(n == 1)
-    {
         return "1";
-    }
 
     string ans = "1$";
 
-    for (int i = 1; i < n; i++)
-    {
+    for (int i = 1; i < n; i++) {
         string temp= "";
         int count = 1;
 
-        for (int j = 0; j < ans.length() - 1; j++)
-        {
+        for (int j = 0; j < ans.length() - 1; j++) {
             if (ans[j] == ans[j+1])
-            {
                 count++;
-            }
-            else
-            {
+            else {
                 temp = temp + to_string(count) + ans[j]; 
                 count = 1;
             }
