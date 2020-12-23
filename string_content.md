@@ -13,8 +13,6 @@ Example 2:
     Input: ["H","a","n","n","a","h"]
     Output: ["h","a","n","n","a","H"]
 ```
-<!-- ![day-41 image](https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/Day-41.png) -->
-<img src="https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/Day-41.png" alt="day-41 image" width="40%" height="40%">
 
 _Algorithm_ :
 
@@ -40,8 +38,6 @@ Example 2:
     Output: 0
     Explanation: S is not a palindrome
 ```
-<!-- ![day-42 image](https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-42.png) -->
-<img src="https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-42.png" alt="day-42 image" width="40%" height="40%">
 
 _Algorithm_ - 1:
 1. Traverse from beginning to half of the string using variable i = 0.
@@ -70,8 +66,6 @@ Example:
                 temp = str1 + str2 = "ABACDABACD"
                 Since str2 is a substring of temp, str1 and str2 are rotations of each other.
 ```
-<!-- ![day-43 image](https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-43.png){:height="50%" width="50 -->
-<img src="https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-43.png" alt="day-43 image" width="40%" height="40%">
 
 _Algorithm_:
 1. Create a temp string and store concatenation of str1 to str2 in temp.
@@ -94,7 +88,6 @@ Example 1:
         Output: l, count = 3
                 o, count = 2
 ```
-<img src="https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-44.png" alt="day-44 image" width="40%" height="40%">
 
 _Algorithm_:
 1. Create an array of 26 alphabets
@@ -125,7 +118,6 @@ Example-2:
     Output:
         Y12X is not a valid shuffle of XY and 12
 ```
-<img src="https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-45.png" alt="day-45 image" width="40%" height="40%">
 
 _Algorithm_:
 1. Take 3 variables i, j, k to keep track of str1, str2, and result
@@ -136,7 +128,7 @@ _Algorithm_:
 
 <br />
 
-## Day 45
+## Day 46
 
 > [Count And Say Sequence](https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/Day-46/countAndSay.cpp)<br />
 
@@ -161,6 +153,26 @@ Example 2:
         countAndSay(3) = say "11" = two 1's = "21"
         countAndSay(4) = say "21" = one 2 + one 1 = "12" + "11" = "1211"
 ```
-<img src="https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/images/day-46.png" alt="day-46 image" width="40%" height="40%">
+
+<br />
+
+## Day 47
+
+> [Longest Palindrome in a String](https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/Day-47/longestPalindromeSubString.cpp)<br />
+
+> C++ program to find longest palindrome substring in a string Given a string S, find the longest palindromic substring in S.
+>> Substring of string S: S[ i . . . . j ] where 0 ≤ i ≤ j < len(S).
+>> Palindrome string: A string which reads the same backwards. 
+>> More formally, S is palindrome if reverse(S) = S. 
+>> Incase of conflict, return the substring which occurs first (with the least starting index).
+
+```
+Example:
+    Input: 1, aaaabbaa
+    Output: aabbaa
+    
+    Explanation:
+        Testcase 1: The longest palindrome string present in the given string is "aabbaa".
+```
 
 <br />
