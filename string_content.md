@@ -228,3 +228,38 @@ _Algorithm_:
 Time complexity : O(N) where N is the length of string
 
 <br />
+
+## Day 50
+
+> [Split the binary string into substrings with equal number of 0s and 1s](https://github.com/RajVadeghar/100DaysOfCode/blob/main/strings/Day-50/mobileKeypadSeq.cpp)<br />
+
+> C++ program to convert a sentence into its equivalent mobile numeric keypad sequence. Given a sentence in the form of a string, convert it into its equivalent mobile numeric keypad sequence.
+
+```
+                        | ABC | DEF
+                    1  |  2  |  3
+                _____|_____|____
+                        |     |
+                    GHI | JKL | MNO
+                    4  |  5  |  6
+                _____|_____|____
+                        |     |
+                PQRS | TUV | WXYZ
+                    7  |  8  |  9
+                _____|_____|____
+                        |     |    
+                    *  |  0  |  #
+                        |     |  
+```
+> For obtaining a number, we need to press a number corresponding to that character for number of times equal to position of the character. For example, for character C, we press number 2 three times and accordingly.
+
+```
+Example 1:
+    Input : GEEKSFORGEEKS
+    Output : 4333355777733366677743333557777
+Example 2:
+    Input : HELLO WORLD
+    Output : 4433555555666096667775553
+```
+
+<br />
